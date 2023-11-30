@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewExplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/exp"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewExplanation"
+        android:layout_marginTop="16dp"
+        android:hint="Nom de l'objet"
+        android:padding="20dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNom"
+        android:layout_marginTop="16dp"
+        android:hint="Description de l'objet"
+        android:padding="20dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewExplanation"
+        android:layout_marginTop="184dp"
+        android:hint="Votre numero de telephone"
+        android:inputType="number"
+        android:padding="20dp" />
+
+    <LinearLayout
+        android:id="@+id/actionButtonsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:text="Poster"/>
+
+        <Button
+            android:id="@+id/btnRetour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retour" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758185126861",
+    "project_id": "lourer-a83e7",
+    "storage_bucket": "lourer-a83e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758185126861:android:0825631b17dacfc1b8f284",
+        "android_client_info": {
+          "package_name": "com.example.lourer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgLkmyhqUx9bKOI6AH-FlrdMwU44CfiOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

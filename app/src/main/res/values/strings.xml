@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LouRer</string>
+    <string name="signin">SignIn</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="signIn">SignIn</string>
+    <string name="you_don_t_have_an_account">You don\'t have an account :</string>
+    <string name="have_account">I have an account :</string>
+    <string name="signun">signUn</string>
+    <string name="signup">signUp</string>
+    <string name="register">signUp</string>
+    <string name="signup1">SignUp</string>
+    <string name="logout">LogOut</string>
+    <string name="logout1">LogOut</string>
+    <string name="explication">explication</string>
+    <string name="explications">LouRer est une application mobile qui vous permet de déclarer des object perdus</string>
+    <string name="bien">Bienvenue\nDans votre espace personnel !</string>
+    <string name="exp">"Ici vous pouvez déclarer un objet : "</string>
+    <string name="expli">Ici vous déclarer le nom de l\'objet trouver puis un message de notification va etre envoyer a la personne qui a perdu cette objet</string>
+</resources>
